@@ -4,3 +4,8 @@
  * and open the template in the editor.
  */
 
+int main(){
+    
+    printf("Hello");
+    return 0;
+}
