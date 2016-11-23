@@ -36,8 +36,10 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/Class.o \
+	${OBJECTDIR}/Course.o \
 	${OBJECTDIR}/Node.o \
 	${OBJECTDIR}/Student.o \
+	${OBJECTDIR}/Teacher.o \
 	${OBJECTDIR}/main.o
 
 
@@ -70,6 +72,11 @@ ${OBJECTDIR}/Class.o: Class.c
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Class.o Class.c
 
+${OBJECTDIR}/Course.o: Course.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Course.o Course.c
+
 ${OBJECTDIR}/Node.o: Node.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -79,6 +86,11 @@ ${OBJECTDIR}/Student.o: Student.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Student.o Student.c
+
+${OBJECTDIR}/Teacher.o: Teacher.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Teacher.o Teacher.c
 
 ${OBJECTDIR}/main.o: main.c
 	${MKDIR} -p ${OBJECTDIR}
