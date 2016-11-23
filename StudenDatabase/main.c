@@ -17,7 +17,6 @@ int main()
 	int i = 0;
 	while(1)
 	{
-		printf("\n Node age is %d\n", ((Student *)SelectNode(i)->element)->age);
 		printf(" Node name %s\n", ((Student *)SelectNode(i)->element)->name);
 		printf(" Node student nr %d\n ",((Student*)(*SelectNode(i)).element)->student_nr);
 		printf(" Node next %p \n ", SelectNode(i)->next);
