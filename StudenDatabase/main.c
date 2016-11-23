@@ -3,7 +3,7 @@
 #include <string.h>
 #include "Student.h"
 #include "Node.h"
-
+#include "DatabaseHandler.h"
 
 
 
@@ -26,6 +26,6 @@ int main()
 	}
 
 	Count();
-	getchar();
+	printf(selectDatabase(1));
 	return 0;
 }

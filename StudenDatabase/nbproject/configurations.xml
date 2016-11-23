@@ -4,6 +4,8 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>Class.h</itemPath>
+      <itemPath>DatabaseHandler.h</itemPath>
       <itemPath>Node.h</itemPath>
       <itemPath>Student.h</itemPath>
     </logicalFolder>
@@ -15,6 +17,7 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>Class.c</itemPath>
+      <itemPath>DatabaseHandler.c</itemPath>
       <itemPath>Node.c</itemPath>
       <itemPath>Student.c</itemPath>
       <itemPath>main.c</itemPath>
@@ -42,6 +45,12 @@
       <compileType>
       </compileType>
       <item path="Class.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Class.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatabaseHandler.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="DatabaseHandler.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Node.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -75,6 +84,12 @@
         </asmTool>
       </compileType>
       <item path="Class.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Class.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatabaseHandler.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="DatabaseHandler.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Node.c" ex="false" tool="0" flavor2="0">
       </item>
