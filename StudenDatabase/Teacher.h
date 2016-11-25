@@ -16,4 +16,4 @@ typedef struct teacher{
     int teacher_nr;
 }Teacher;
 
-
+Teacher* addTeacher(char *name, int teacher_num);

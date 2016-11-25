@@ -4,14 +4,10 @@
  * and open the template in the editor.
  */
 
-/* 
- * File:   Course Class.h
- * Author: Konstantin
- *
- * Created on 23 Ноември 2016, 19:12
- */
-
-typedef struct CClass{
-    int students_num[];
+typedef struct course{
     int course_num;
-}CClass;
+    char course_name[30];
+    int semester_num;
+}Course;
+
+Course* createCourse(int course_num, char *course_name, int semester_num);

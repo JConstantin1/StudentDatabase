@@ -37,6 +37,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/Class.o \
 	${OBJECTDIR}/Course.o \
+	${OBJECTDIR}/DatabaseHandler.o \
 	${OBJECTDIR}/Node.o \
 	${OBJECTDIR}/Student.o \
 	${OBJECTDIR}/Teacher.o \
@@ -72,10 +73,17 @@ ${OBJECTDIR}/Class.o: Class.c
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Class.o Class.c
 
+<<<<<<< HEAD
 ${OBJECTDIR}/Course.o: Course.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Course.o Course.c
+=======
+${OBJECTDIR}/DatabaseHandler.o: DatabaseHandler.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/DatabaseHandler.o DatabaseHandler.c
+>>>>>>> 505d27ccf651b0150aa29f2c0bf7837b78738c89
 
 ${OBJECTDIR}/Node.o: Node.c
 	${MKDIR} -p ${OBJECTDIR}

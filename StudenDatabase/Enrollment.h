@@ -5,14 +5,15 @@
  */
 
 /* 
- * File:   Student Class.h
+ * File:   Course Class.h
  * Author: Konstantin
  *
- * Created on 23 Ноември 2016, 19:16
+ * Created on 23 Ноември 2016, 19:12
  */
 
-typedef struct SClass{
-    int students_num[];
-    int Teacher_num;
-}SClass;
+typedef struct Enrollment{
+    int students_num;
+    int course_num;
+}Enrollment;
 
+Enrollment* createEnrollment(int student_num, int course_num);
