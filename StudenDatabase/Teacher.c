@@ -7,7 +7,7 @@
 
 Teacher* addTeacher(char *name, int teacher_num){
     Teacher *t;
-    t = (Teacher*)maloc (sizeof(Teacher));
+    t = (Teacher*)malloc (sizeof(Teacher));
     strcpy(t->name , name);
     t->teacher_nr = teacher_num;
     return t;
